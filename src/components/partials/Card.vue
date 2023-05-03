@@ -5,7 +5,7 @@ export default{
     name: 'Card',
     props:{
         name: String,
-        img: String,
+        img: Array,
         type: String,
     },
     data(){
@@ -44,7 +44,7 @@ export default{
         }
         .text{
             padding-bottom: 20px;
-            height: 100px;
+            height: 120px;
             background-color: #D48F38;
             h5{
                 text-align: center;
